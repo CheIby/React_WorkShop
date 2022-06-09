@@ -1,0 +1,32 @@
+.bg{
+    @apply w-full h-[1080px] flex justify-center bg-no-repeat bg-[url('../img/rankingBg.png')] flex justify-center items-center
+}
+
+.scoreBoard table{
+    @apply bg-[#2D384B] bg-opacity-40 text-3xl rounded-2xl overflow-hidden h-[900px] w-[1300px] text-white tracking-wider font-anton
+  }
+
+.scoreBoard thead,tfoot{
+    @apply bg-[#655cf9] w-[1300px] h-16
+}
+
+.scoreBoard tbody tr{
+  @apply h-14 
+}
+
+.flex_end{
+    @apply flex justify-end mr-5
+}
+
+.flex_center{
+  @apply flex justify-center
+}
+
+.home_img {
+  @apply w-14 cursor-pointer
+}
+
+.home_img_saturn{
+  @apply w-20 cursor-pointer
+}
+  

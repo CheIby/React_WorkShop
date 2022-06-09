@@ -9,7 +9,7 @@ const Tasks =()=>{
         fetch('http://161.246.5.40:8880/question')
         .then(response => response.json())
         .then(data=>setData(data))
-        console.log(data)
+        console.log(data);
     },[]);
 
     return(
@@ -19,6 +19,7 @@ const Tasks =()=>{
                 <QuestionBox key={el.id} question={el.title}/>
             ))}
             </div>
+            
         </div>
     );
 };
