@@ -5,6 +5,7 @@ const config =[
     {key:1,to:"/",name: "Home"},
     {key:2,to:"/tasks",name: "Tasks"},
     {key:3,to:"/logout",name: "Logout"},
+    {key:4,to:"/test",name:"Test"},
 ];
 
 const Navbar =()=>{
