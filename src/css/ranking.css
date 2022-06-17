@@ -11,7 +11,7 @@
 }
 
 .scoreBoard tbody tr{
-  @apply h-14 
+  @apply h-14
 }
 
 .flex_end{
